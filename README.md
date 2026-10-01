@@ -1,185 +1,37 @@
-<div align="center">
+# Hi, I'm Ender Puentes
 
-# Hi! I'm Ender 👾👋
+**Senior Full Stack Developer & Mentor** · Buenos Aires, GMT-3
 
-### Senior Software Developer | TypeScript Specialist | Systems Engineering Student
+Ten years building product and architecture in production. TypeScript, Node.js and AI. No smoke, systems you can explain.
 
-</div>
+### `$ whoami`
 
----
+Code is only part of the job. Some days it's product thinking, other days architecture, watching a deploy, or staying a little longer to figure out why something that worked yesterday stopped working today. That's production. It has a personality of its own.
 
-## About Me
+I care about understanding the problem, discussing decisions when they matter, and finding the simplest, most solid way to ship. Most of what I know I learned by building and getting things wrong on real systems.
 
-I'm a **Senior Software Developer** with **10 years of experience** building scalable, production-ready web applications. I specialize in modern TypeScript ecosystems, serverless architectures, and creating robust systems that balance performance, maintainability, and developer experience.
+### `$ now`
 
-My approach combines **SOLID principles**, **domain-driven design**, and **functional programming patterns** to deliver high-quality software. I'm passionate about clean architecture, type safety, and building systems that scale gracefully.
+Leading an internal product for large-scale workflow orchestration and notifications with multiple external integrators, built from the ground up: Next.js RSC, a Supabase RPC-only backend and a modular async engine. Alongside it, multi-LLM orchestration with the Vercel AI SDK and a RAG pipeline on pgvector. I also mentor developers, define code starters and set the team's engineering standards.
 
-Currently, I'm focused on **workflow engines and process automation**, building complex systems that orchestrate multi-step processes, handle event-driven architectures, and automate business logic with visual workflow builders.
+### `$ ls case-studies`
 
-I excel at leading technical initiatives, mentoring teams, and collaborating across disciplines to deliver exceptional digital products. Pursuing **Systems Engineering** at Universidad de Los Andes, Venezuela.
+Problems I was handed, and what came out the other side.
 
----
+- A monolith with performance problems, moved to a distributed architecture without rewriting the product. [~10 microservices, zero rewrite](https://www.enderpuentes.com/en/case-studies/libre-opcion-monolito-a-microservicios)
+- A platform that suddenly had to handle 20x more traffic. [~20x more user capacity](https://www.enderpuentes.com/en/case-studies/libre-opcion-escalado-horizontal-trafico)
+- A frontend that was starting to talk like the ERP behind it. [The frontend never sees `f_title`](https://www.enderpuentes.com/en/case-studies/el-frontend-no-tenia-por-que-hablar-como-el-erp)
+- Standardizing development in an era of AI-generated code. [Starters as an internal product, adopted team-wide](https://www.enderpuentes.com/en/case-studies/reglas-auditoria-codigo-estandar-equipo)
+- A handoff between two development teams that could not become a bottleneck. [Progressive handoff, zero bottleneck](https://www.enderpuentes.com/en/case-studies/handoff-controlado-monorepo-dos-equipos)
 
-## 🚀 Impact & Results
+One rule I keep coming back to: the third-party API is not your model. When it hands you `f_title` and `userid`, TypeScript does not complain if you copy it. I translate it on the server with Zod, and the screens get the object I actually want to use.
 
-- Designed and led a multi-tenant SaaS architecture serving **thousands of users** with strict PostgreSQL RLS isolation
-- Built an event-driven workflow engine orchestrating **multi-step processes** with retries, queues, and scheduled execution
-- Reduced onboarding time by **~35%** by implementing interactive, guided workflows
-- Led architectural refactors that improved **delivery speed and long-term maintainability** across teams
+Full list at [case studies](https://www.enderpuentes.com/en/case-studies). Shorter things I learn along the way go in [notes](https://www.enderpuentes.com/en/notes). The skills I use with AI agents live in [ai-agent-skills](https://github.com/EnderPuentes/ai-agent-skills).
 
----
+### `$ contact`
 
-## 🛠️ Technical Stack
+Open to contract or full-time work.
 
-### Languages & Runtimes
+**Website** &nbsp;·&nbsp; [enderpuentes.com](https://www.enderpuentes.com) &nbsp;·&nbsp; [Contact form](https://www.enderpuentes.com/en/contact)
 
-```
-TypeScript · JavaScript (ES2017+) · Python · PHP · Node.js · Deno
-```
-
-### Frontend
-
-```
-Next.js · Nuxt.js · React · Vue.js · Tailwind CSS · Styled Components
-ShadCN UI · Framer Motion · React Hook Form · Zod · Storybook
-```
-
-### Backend & Infrastructure
-
-```
-Supabase · PostgreSQL · Serverless Functions (Firebase, Supabase Edge Functions, AWS Lambda)
-RESTful APIs · WebSockets · PWA Development
-```
-
-### Cloud & DevOps
-
-```
-Vercel · AWS (S3, EC2, Lambda) · Google Cloud · Docker
-GitHub Actions · Heroku · Dokku
-```
-
-### Databases & ORMs
-
-```
-PostgreSQL · MySQL/MariaDB · MSSQL · MongoDB · Firestore
-Prisma · GraphQL
-```
-
-### External Services & Integrations
-
-```
-Stripe · Resend · Firebase · OpenAI API · LangChain
-Discord API · GitHub API
-```
-
-### CMS & Content Management
-
-```
-Sanity · Strapi · Laravel
-```
-
-### Infrastructure & Web Servers
-
-```
-Nginx · Apache
-```
-
----
-
-## 🏗️ Architecture & Design
-
-### Architectural Patterns
-
-| Pattern                       | Description                                             |
-| ----------------------------- | ------------------------------------------------------- |
-| **Serverless Architecture**   | Event-driven systems, Edge Functions, multi-tenant SaaS |
-| **RPC-Only Architecture**     | Database access through PostgreSQL functions            |
-| **Domain-Driven Design**      | Feature-based code organization                         |
-| **Multi-Tenancy**             | Project-based data isolation with Row Level Security    |
-| **Event-Driven Architecture** | Database triggers and real-time processing              |
-
-### Design Patterns
-
-```
-Template Method · Factory · Strategy · Repository
-Provider · Middleware · Result/Either
-```
-
-### Programming Paradigms
-
-```
-Object-Oriented Programming · Functional Programming
-Modular Programming · Declarative Programming · Reactive Programming
-```
-
----
-
-## 🎯 Core Competencies
-
-### Software Engineering
-
-| Competency           | Implementation                                        |
-| -------------------- | ----------------------------------------------------- |
-| **SOLID Principles** | Applied across all projects                           |
-| **Type Safety**      | Strict TypeScript, exhaustive type checking           |
-| **Code Quality**     | Domain-driven structure, clear separation of concerns |
-| **Error Handling**   | Result pattern, explicit error types                  |
-| **Validation**       | Runtime validation with Zod schemas                   |
-
-### Performance & Optimization
-
-| Technique               | Application                              |
-| ----------------------- | ---------------------------------------- |
-| **Server Components**   | Minimize client-side JavaScript          |
-| **Code Splitting**      | Dynamic imports, lazy loading            |
-| **Caching Strategies**  | React Query, database query optimization |
-| **Image Optimization**  | WebP format, responsive images           |
-| **Bundle Optimization** | Tree shaking, dead code elimination      |
-
-### Security
-
-| Practice                           | Implementation                          |
-| ---------------------------------- | --------------------------------------- |
-| **Row Level Security (RLS)**       | Database-level access control           |
-| **Authentication & Authorization** | JWT tokens, role-based access           |
-| **Input Validation**               | Schema validation, sanitization         |
-| **SQL Injection Prevention**       | Parameterized queries, secure functions |
-
----
-
-## 📊 Leadership & Collaboration
-
-- **Technical Leadership** - Architecture decisions, code reviews, mentoring
-- **Agile Methodologies** - Sprint planning, backlog management
-- **Documentation** - Technical specs, API documentation, architecture diagrams
-- **Release Management** - Versioning, deployment strategies
-- **Team Collaboration** - Cross-functional teamwork, knowledge transfer
-
----
-
-## 🚀 Current Focus
-
-- **Workflow Engines** - Visual workflow builders, process orchestration, event-driven automation
-- **Process Automation** - Multi-step workflows, task queues, scheduled execution
-- **Advanced TypeScript** - Conditional types, template literals, utility types
-- **Performance Optimization** - React Server Components, edge computing
-- **System Design** - Scalable architectures, distributed systems
-
----
-
-## 📈 Key Achievements
-
-- ✅ Built and maintained production applications serving **thousands of users**
-- ✅ Designed and implemented complex workflow engines with **visual editors**
-- ✅ Architected multi-tenant SaaS platforms with **robust security**
-- ✅ Led technical initiatives and **mentored development teams**
-- ✅ Contributed to **open-source projects** and technical communities
-- ✅ Delivered high-quality software following **industry best practices**
-
----
-
-<div align="center">
-
-_Always learning, always building, always improving._ 🚀
-
-</div>
+**Social** &nbsp;&nbsp;&nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/enderpuentes) &nbsp;·&nbsp; [X](https://x.com/enderpuents) &nbsp;·&nbsp; [Telegram](https://t.me/enderpuentes)
