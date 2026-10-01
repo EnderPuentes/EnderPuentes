@@ -26,12 +26,10 @@ Problems I was handed, and what came out the other side.
 
 One rule I keep coming back to: the third-party API is not your model. When it hands you `f_title` and `userid`, TypeScript does not complain if you copy it. I translate it on the server with Zod, and the screens get the object I actually want to use.
 
-Full list at [case studies](https://www.enderpuentes.com/en/case-studies). Shorter things I learn along the way go in [notes](https://www.enderpuentes.com/en/notes). The skills I use with AI agents live in [ai-agent-skills](https://github.com/EnderPuentes/ai-agent-skills).
-
 ### `$ contact`
 
 Open to contract or full-time work.
 
-**Website** &nbsp;·&nbsp; [enderpuentes.com](https://www.enderpuentes.com) &nbsp;·&nbsp; [Contact form](https://www.enderpuentes.com/en/contact)
+**Website** &nbsp;·&nbsp; [enderpuentes.com](https://www.enderpuentes.com) &nbsp;·&nbsp; [Case studies](https://www.enderpuentes.com/en/case-studies) &nbsp;·&nbsp; [Notes](https://www.enderpuentes.com/en/notes) &nbsp;·&nbsp; [Resources](https://www.enderpuentes.com/en/resources)
 
 **Social** &nbsp;&nbsp;&nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/enderpuentes) &nbsp;·&nbsp; [X](https://x.com/enderpuents) &nbsp;·&nbsp; [Telegram](https://t.me/enderpuentes)
