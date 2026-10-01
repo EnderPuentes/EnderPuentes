@@ -12,7 +12,7 @@ I care about understanding the problem, discussing decisions when they matter, a
 
 ### `$ now`
 
-Leading an internal product for large-scale workflow orchestration and notifications with multiple external integrators, built from the ground up: Next.js RSC, a Supabase RPC-only backend and a modular async engine. Alongside it, multi-LLM orchestration with the Vercel AI SDK and a RAG pipeline on pgvector. I also mentor developers, define code starters and set the team's engineering standards.
+Leading an internal product for large-scale workflow orchestration and notifications with multiple external integrators, built from the ground up: Next.js RSC, a Supabase RPC-only backend and a modular async engine. Alongside it, multi-LLM orchestration with the Vercel AI SDK and a RAG pipeline on pgvector. I also mentor developers, define code starters and set the team's engineering standards. Open to contract or full-time work.
 
 ### `$ ls case-studies`
 
@@ -26,10 +26,10 @@ Problems I was handed, and what came out the other side.
 
 One rule I keep coming back to: the third-party API is not your model. When it hands you `f_title` and `userid`, TypeScript does not complain if you copy it. I translate it on the server with Zod, and the screens get the object I actually want to use.
 
-### `$ contact`
+### `$ website`
 
-Open to contract or full-time work.
+[Timeline](https://www.enderpuentes.com/en#timeline) · [Contact](https://www.enderpuentes.com/en/contact) · [Notes](https://www.enderpuentes.com/en/notes) · [Resources](https://www.enderpuentes.com/en/resources) · [Case studies](https://www.enderpuentes.com/en/case-studies)
 
-**Website** &nbsp;·&nbsp; [enderpuentes.com](https://www.enderpuentes.com) &nbsp;·&nbsp; [Case studies](https://www.enderpuentes.com/en/case-studies) &nbsp;·&nbsp; [Notes](https://www.enderpuentes.com/en/notes) &nbsp;·&nbsp; [Resources](https://www.enderpuentes.com/en/resources)
+### `$ social`
 
-**Social** &nbsp;&nbsp;&nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/enderpuentes) &nbsp;·&nbsp; [X](https://x.com/enderpuents) &nbsp;·&nbsp; [Telegram](https://t.me/enderpuentes)
+[LinkedIn](https://www.linkedin.com/in/enderpuentes) · [X](https://x.com/enderpuents) · [Telegram](https://t.me/enderpuentes)
